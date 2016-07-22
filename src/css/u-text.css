@@ -1,0 +1,20 @@
+.u-textLead {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+
+
+/**
+ * Responsive Utilities
+ */
+
+
+ /* Small Screen */
+
+@media (--sm-viewport) {
+  .u-sm-textCenter {
+    text-align: center;
+  }
+}
