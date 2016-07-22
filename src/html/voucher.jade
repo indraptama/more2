@@ -1,0 +1,83 @@
+extends partial/default.jade
+include partial/merchantthumb.jade
+
+block content
+  section
+    .container.u-borBot
+      .Grid.Grid--equalHeight
+        .Grid-cell.u-lg-size4of5
+          .div
+            .div
+              p.u-textLead Thank you for choosing AXA  Enjoy our treat
+            p Voucher Code: 45667-67478-89009
+            p Saldo Balance : Rp 100,000.-  
+            p 
+              a(href="#") (Show history)
+            p Expired date: 30 Juni 2016
+            p Card Status: Card Active
+        .Grid-cell.u-lg-size1of5
+          .div
+            img.img-r(src="asset/img/logo/acc.jpg")
+  section
+    .container.u-padTall-2.u-borBot
+  section
+    .container
+      .Grid
+        .Grid-cell.u-lg-size1of5
+          aside
+            input(type="search" placeholder="search")
+            h4 Categories
+            ul
+              li
+                label
+                  input(type="checkbox")
+                  span 
+                    i.icon.icon-voucher
+                  span Voucher
+              li
+                label
+                  input(type="checkbox")
+                  span 
+                    i.icon.icon-Pulsa
+                  span Pulsa
+              li
+                label
+                  input(type="checkbox")
+                  span 
+                    i.icon.icon-donasi
+                  span Donasi
+                  
+        .Grid-cell.u-lg-size4of5
+          section
+            aside.u-padTall-2
+            
+            .div
+              .Grid
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Alfamart','asset/img/logo/alfamart.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Auto2000','asset/img/logo/auto2000.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('CGV Blitz','asset/img/logo/blitz.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('DQ','asset/img/logo/dq.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Indosat Ooredoo','asset/img/logo/indosat.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('KFC','asset/img/logo/kfc2.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Line','asset/img/logo/line.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('LotteMart','asset/img/logo/lotte.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Samsung','asset/img/logo/samsung.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Shell','asset/img/logo/shell.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Superdry','asset/img/logo/superdry.jpg')
+                .Grid-cell.u-size1of2.u-md-size1of3.u-lg-size1of4
+                  +merchantthumb('Telkomsel','asset/img/logo/telkomsel2.jpg')
+                  
+                  
+                  
+              

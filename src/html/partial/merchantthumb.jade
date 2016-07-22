@@ -1,0 +1,9 @@
+mixin merchantthumb(name,img)
+  .MerchantThumb
+    .MerchantThumb-container
+      .MerchantThumb-img
+        img.img-r(src=img)
+      .MerchantThumb-body.u-padAll-half
+        p.u-textTruncate=name
+      .MerchantThumb-action.u-padAll-half
+        button.Button.Button--full.Button--small.Button--green Details
