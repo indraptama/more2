@@ -40,6 +40,7 @@
   "dependencies": {
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "suitcss": "^2.0.0"
+    "suitcss": "^2.0.0",
+    "suitcss-utils-size": "^2.0.0"
   }
 }

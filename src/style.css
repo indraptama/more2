@@ -8,6 +8,7 @@
 /* Utilities */
 @import "./css/u-text.css";
 @import "./css/u-display.css";
+@import "suitcss-utils-size";
 @import "./css/u-spacing.css";
 
 /**
@@ -46,6 +47,7 @@
 
 html {
   font-family: 'source sans pro';
+  background-color: #f3f3f3;
 }
 body {
   line-height: 1.5;
@@ -57,24 +59,45 @@ img {
 }
 
 
-h2 {
+h2,
+.beta {
   font-size: 1.618rem;
   font-weight: 600;
   line-height: 1.0786666667;
   margin-bottom: 1.5rem;
 }
 
-h3{
+h3,
+.zeta{
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-h4 {
+h4,
+.delta {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
 }
+
+
+.mini {
+  font-size: 0.64rem;
+}
+
+.u-textWeightBold {
+  font-weight: 600;
+}
+
+.u-textWeightNormal {
+  font-weight: 400;
+}
+
+.u-textWeightThin {
+  font-weight: 300;
+}
+
 
 .container {
   max-width: 960px;
@@ -122,8 +145,16 @@ h4 {
   max-width: 100%;
 }
 
+
+.u-borTop {
+  border-top: 1px solid #CFD8DC;
+}
+
 .u-borBot {
   border-bottom: 1px solid #CFD8DC;
+}
+.u-borLeft {
+  border-left: 1px solid #CFD8DC;
 }
 
 /* MORE  */
@@ -156,7 +187,7 @@ h4 {
 }
 
 .MerchantThumb:hover:before {
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.45);
   transition: all 150ms ease;
 }
 
@@ -198,8 +229,48 @@ h4 {
 }
 
 
+.bg-blue {
+  background-color: #2196F3;
+}
 
+.u-textWhite {
+  color: #fff;
+}
 
 .u-size206 {
   max-width: 206px;
+}
+
+.Card {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+
+
+/* Voucher Stats Card */
+.VoucherStatCard {
+  position: relative;
+  color: rgba(0, 0, 0, 0.85);;
+}
+
+.VoucherStatCard-body {
+  position: relative;
+  border-radius: 4px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+/* Shadow */
+.VoucherStatCard-shadow {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 80%;
+  height: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 0 50px 0 rgba(0,0,0,.5)
 }
